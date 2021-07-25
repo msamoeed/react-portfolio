@@ -12,7 +12,7 @@ import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="DevAll" />
+    <SEO title="DevAll" description="" />
     <Header></Header>
     <Work></Work>
     <About></About>
