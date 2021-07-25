@@ -174,9 +174,10 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  promotionHeading: "React Web Apps",
+  promotionPara: "https://firebasestorage.googleapis.com/v0/b/chatin-74dc1.appspot.com/o/Screenshot%202021-07-25%20at%205.06.22%20PM.png?alt=media&token=d21379a6-411f-4dab-b3d5-af6e638aa00b",
+
+   reactApp: "https://firebasestorage.googleapis.com/v0/b/chatin-74dc1.appspot.com/o/Screenshot%202021-07-25%20at%205.14.05%20PM.png?alt=media&token=bc379208-97bf-49a4-9ab3-5c8c1e7839d0",
   // End Promotion Section -----------------
 
   //   Contact Section --------------

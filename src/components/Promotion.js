@@ -10,7 +10,16 @@ const Promotion = () => {
           <Fade bottom cascade>
             <h1>{data.promotionHeading}</h1>
           </Fade>
-          <p>{data.promotionPara}</p>
+         
+          {/* <div className="image-wrapper">
+            <img height={500} src={data.promotionPara} alt="about"></img>
+            
+
+          </div> */}
+         < div className="image-wrapper">
+         <img height={650} src={data.reactApp} alt="abouts"></img>            
+
+          </div>
         </div>
       </div>
     </div>
