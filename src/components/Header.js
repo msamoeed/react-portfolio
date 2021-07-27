@@ -1,13 +1,25 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
+import tawkTo from "tawkto-react";
+
+
+const tawkToPropertyId = '521727297ca1334016000005'
+const tawkToKey = '18nms7gql'
+
+
+
 
 const Header = () => {
+  React.useEffect(() => {
+    tawkTo(tawkToPropertyId, tawkToKey)
+  }, [])
+
   return (
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          <Fade bottom>
+          <Fade >
             <h2>
               Hi, We are {data.name}{" "}
               <span role="img" aria-label="Emoji">
@@ -15,31 +27,37 @@ const Header = () => {
               </span>
             </h2>
           </Fade>
-          <Fade bottom cascade>
+          <Fade >
             <div className="heading-wrapper">
               <h1>
                 {data.headerTagline[0]
                   ? data.headerTagline[0]
-                  : "Building digital"}
+                  : "Hybrid Mobile Applications"}
+              </h1>
+
+              <h1>
+           
+
+
               </h1>
               <h1>
                 {" "}
                 {data.headerTagline[1]
                   ? data.headerTagline[1]
-                  : "products, brands"}
+                  : "Web Apps"}
               </h1>
               <h1>
                 {" "}
                 {data.headerTagline[2]
                   ? data.headerTagline[2]
-                  : "and experience"}
+                  : "Desktop Applications and years of experience"}
               </h1>
             </div>
           </Fade>
-          <Fade bottom>
+          <Fade >
             <p>{data.headerParagraph}</p>
           </Fade>
-          <Fade bottom>
+          <Fade >
             <a
               href={`mailto:${
                 data.contactEmail ? data.contactEmail : "msamoeed@gmail.com"

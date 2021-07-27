@@ -11,6 +11,7 @@ import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
 
 const IndexPage = () => (
+  
   <Layout>
     <SEO title="DevAll" description="" />
     <Header></Header>

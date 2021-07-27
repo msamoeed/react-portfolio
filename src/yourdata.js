@@ -26,11 +26,11 @@ export default {
   name: "DevAll",
   headerTagline: [
     //Line 1 For Header
-    "Cross-Platform Mobile Applications",
+    "Hybrid Mobile Applications",
     //Line 2 For Header
-    "Web Apps, Desktop Applications",
+    "Web Apps",
     //Line 3 For Header
-    "and years of experience",
+    "Desktop Applications",
   ],
   //   Header Paragraph
   headerParagraph:

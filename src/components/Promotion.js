@@ -8,7 +8,7 @@ const Promotion = () => {
       <div className="container">
         <div className="promotion-container">
           <Fade bottom cascade>
-            <h1>{data.promotionHeading}</h1>
+            <h2>{data.promotionHeading}</h2>
           </Fade>
          
           {/* <div className="image-wrapper">
