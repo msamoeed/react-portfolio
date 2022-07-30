@@ -94,6 +94,15 @@ export default {
       url: "http://chetanverma.com/",
     },
    
+    {
+      title: "Project Six", //Project Title - Add Your Project Title Here
+      para:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:"https://firebasestorage.googleapis.com/v0/b/chatin-74dc1.appspot.com/o/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-07-03%20at%2012.53.01.png?alt=media&token=0e16cdb8-9eac-4139-bb66-b4553bf62286",
+      //Project URL - Add Your Project Url Here
+      url: "http://chetanverma.com/",
+    },
 
     /*
     If You Want To Add More Project just Copy and Paste This At The End
